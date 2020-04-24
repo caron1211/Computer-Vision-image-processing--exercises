@@ -18,7 +18,7 @@ def imReadAndConvert(filename: str, representation: int) -> np.ndarray:
 ```
 
 ### 4.2 Displaying an image
-
+```
 def imDisplay(filename: str, representation: int):
     """
     Reads an image as RGB or GRAY_SCALE and displays it
@@ -27,7 +27,7 @@ def imDisplay(filename: str, representation: int):
     :return: None
     The function call to 'imReadAndConvert' and then use 'matplotlib.pyplot' library to show the image
     """
-
+```
 ### 4.3 Transforming an RGB image to YIQ color space
 
 ```
@@ -42,7 +42,8 @@ def transformRGB2YIQ(imgRGB: np.ndarray) -> np.ndarray:
 ### 4.4 Histogram equalization
 
 ```
-"""
+def hsitogramEqualize(imgOrig: np.ndarray) -> (np.ndarray, np.ndarray, np.ndarray):
+    """
         Equalizes the histogram of an image
         :param imgOrig: Original Histogram
         :return: imgEq:image after equalize , histOrg: the original histogram, histEq: the new histogram
