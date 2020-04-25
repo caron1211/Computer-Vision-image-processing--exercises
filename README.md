@@ -2,6 +2,7 @@
 Exercises in computer vision and image processing course
 ## Exercise 1: Image Representations and Point Operations
 ### 4.1 Reading an image into a given representation
+
 ```
 def imReadAndConvert(filename: str, representation: int) -> np.ndarray:
     """
@@ -51,6 +52,14 @@ def hsitogramEqualize(imgOrig: np.ndarray) -> (np.ndarray, np.ndarray, np.ndarra
         and then computed the histogram cdf and then mapped the pixels in the image to the optimal cdf
     """
 ```
+#### Results:  
+orignal image:
+![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/bac_con.png?raw=true)
+hsitogram:  
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/histoOfhsitogramEqualize.png?raw=true)
+result:
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/hsitogramEqualizeRes.png?raw=true)
+
 ### 4.5 Optimal image quantization
 
 ```
@@ -67,6 +76,13 @@ def quantizeImage(imOrig: np.ndarray, nQuant: int, nIter: int) -> (List[np.ndarr
 
     """
 ```
+#### Results:  
+
+original
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/dark/dark.jpg?raw=true)
+quantization with 4 color
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/dark/quantimageRes.png?raw=true)
+
 ### 4.6 Gamma Correction
 
 ```
