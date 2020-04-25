@@ -54,22 +54,16 @@ def hsitogramEqualize(imgOrig: np.ndarray) -> (np.ndarray, np.ndarray, np.ndarra
 ```
 #### Results:  
 orignal image:
-![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/bac_con.png?raw=true)
-<br/>
-hsitogram:
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/histoOfhsitogramEqualize.png?raw=true)
-<br/>
-result:
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/hsitogramEqualizeRes.png?raw=true)
-<br/>
-
-orignal image:
-![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/beach.jpg?raw=true)
-<br/>
-hsitogram:
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/histoOfhsitogramEqualize.png?raw=true)
-<br/>
-result:
+![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/bac_con.png?raw=true)  
+hsitogram:  
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/histoOfhsitogramEqualize.png?raw=true)  
+result:  
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/hsitogramEqualizeRes.png?raw=true)  
+orignal image:  
+![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/beach.jpg?raw=true)  
+hsitogram:  
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/histoOfhsitogramEqualize.png?raw=true)  
+result:  
 ![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/hsitogramEqualizeRes.png?raw=true)
 
 
