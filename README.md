@@ -53,7 +53,7 @@ def hsitogramEqualize(imgOrig: np.ndarray) -> (np.ndarray, np.ndarray, np.ndarra
     """
 ```
 #### Results:  
-orignal image:
+orignal image:  
 ![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/bac_con.png?raw=true)  
 hsitogram:  
 ![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/histoOfhsitogramEqualize.png?raw=true)  
@@ -93,16 +93,15 @@ quantization with 4 color
 ### 4.6 Gamma Correction
 
 ```
-def imReadAndConvert(filename: str, representation: int) -> np.ndarray:
+def gammaDisplay(img_path: str, rep: int):
     """
-    Reads an image, and returns and returns in converted as requested
-    :param filename: The path to the image
-    :param representation: GRAY_SCALE or RGB
-    :return: The image object
-    The function used cv2.imread function to read the image.
-    It distinguished the case where the image is GRAYSCALE and RGB by representation param
-    In the case where the representation is RGB i convert from BGR to RGB
-    After converting to the matrix, I normalized all pixels to values between 0 and 1 by cv2.normalize
-
+    GUI for gamma correction
+    :param img_path: Path to the image
+    :param rep: grayscale(1) or RGB(2)
+    :return: None
+    I used Trackbar of cv2 The values in the trackbar are between 0-100  and default is 50.
+    I converted this range to the [0-2] ( default is 1) and called tha value gamma.
+    Each time the user moved the range I updated the values of gamma powerful image
+    To exit GUI, click esc
     """
 ```
