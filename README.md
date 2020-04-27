@@ -86,7 +86,7 @@ def quantizeImage(imOrig: np.ndarray, nQuant: int, nIter: int) -> (List[np.ndarr
 #### Results:  
 
 original
-![Image description]https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/fruits/fruits.jpg?raw=true)
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/fruits/fruits.jpg?raw=true)
 quantization with 4 color
 ![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/TestImg2.jpg?raw=true)
 
