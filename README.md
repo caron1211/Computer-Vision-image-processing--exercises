@@ -59,12 +59,12 @@ hsitogram:
 ![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/histoOfhsitogramEqualize.png?raw=true)  
 result:  
 ![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/bac/hsitogramEqualizeRes.png?raw=true)  
-orignal image:  
-![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/beach.jpg?raw=true)  
+orignal image (rgb):  
+![original](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/view/view.jpg?raw=true)  
 hsitogram:  
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/histoOfhsitogramEqualize.png?raw=true)  
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/view/histoOfhsitogramEqualize.png?raw=true)  
 result:  
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/beach_rgb/hsitogramEqualizeRes.png?raw=true)
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/TestImg1.jpg?raw=true)
 
 
 ### 4.5 Optimal image quantization
@@ -86,9 +86,9 @@ def quantizeImage(imOrig: np.ndarray, nQuant: int, nIter: int) -> (List[np.ndarr
 #### Results:  
 
 original
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/dark/dark.jpg?raw=true)
+![Image description]https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/fruits/fruits.jpg?raw=true)
 quantization with 4 color
-![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/dark/quantimageRes.png?raw=true)
+![Image description](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/TestImg2.jpg?raw=true)
 
 ### 4.6 Gamma Correction
 
@@ -105,3 +105,10 @@ def gammaDisplay(img_path: str, rep: int):
     To exit GUI, click esc
     """
 ```
+#### Results:  
+
+original image (gamma = 1):  
+![gamma1](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/gamma/gamma%201.PNG?raw=true)  
+image (gamma = 0.46):  
+![gamma1](https://github.com/caron1211/Computer-Vision-image-processing--exercises/blob/master/Ex1/gamma/gamma%200.46.PNG?raw=true)  
+
