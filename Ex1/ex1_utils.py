@@ -19,12 +19,7 @@ import matplotlib.pyplot as plt
 import sys
 
 
-def myID() -> np.int:
-    """
-    Return my ID (not the friend's ID I copied from)
-    :return: int
-    """
-    return 315858340
+
 
 
 def imReadAndConvert(filename: str, representation: int) -> np.ndarray:
